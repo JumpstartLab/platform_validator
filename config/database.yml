@@ -6,7 +6,7 @@
 development:
   adapter: postgresql
   database: platform_validator_development
-  host: localhost
+  encoding: utf8
   pool: 5
   timeout: 5000
 
@@ -16,6 +16,6 @@ development:
 test:
   adapter: postgresql
   database: platform_validator_test
-  host: localhost
+  encoding: utf8
   pool: 5
   timeout: 5000
